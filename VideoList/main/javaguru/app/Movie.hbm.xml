@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="javaguru.app">
+  <class name="Movie" table="VIDEOLIST">
+    <id column="ID" name="ID" type="java.lang.Integer">
+      <generator class="increment"/>
+    </id>
+    <property column="FILMNAME" name="filname" type="java.lang.String"/>
+    <property column="COUNTRY" name="country" type="java.lang.String"/>
+    <property column="DIRECTOR" name="director" type="java.lang.String"/>
+    <property column="DISCRIPTION" name="discription" type="java.lang.String"/>
+    <property column="RATING" name="rating" type="java.lang.Integer"/>
+  </class>
+</hibernate-mapping>

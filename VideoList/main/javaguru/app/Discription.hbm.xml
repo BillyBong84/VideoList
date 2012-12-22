@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="javaguru.app">
+  <class name="Discription" table="DISCRIPTION">
+    <id column="D_ID" name="D_ID" type="java.lang.Integer">
+      <generator class="increment"/>
+    </id>
+    <property column="IMAGE" name="IMAGE" type="java.lang.String"/>
+    <property column="ACTORS" name="ACTORS" type="java.lang.String"/>
+    <property column="BUDJET" name="BUDJET" type="java.lang.Double"/>
+    <property column="DURATION" name="DURATION" type="java.lang.String"/>
+  </class>
+</hibernate-mapping>

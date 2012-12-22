@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WickedVideo" docBase="WickedVideo"
+        debug="5" reloadable="true" crossContext="true">
+   <Resource name="hsqldb/videolist" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="SA" password="" driverClassName="org.hsqldb.jdbcDriver"
+               url="jdbc:hsqldb:file:C:/Users/Alexander/workspace/Videolist/videolist"/>
+</Context> 
